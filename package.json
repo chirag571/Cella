@@ -1,0 +1,14 @@
+{
+  "name": "cella",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A cream-and-teal CSV workspace: explore, filter, clean, and export data locally.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check public/app.mjs && node --check public/data.mjs && node --check public/storage.mjs && node --check public/tasks.mjs && node --check public/worker.mjs && node --check server.mjs"
+  }
+}

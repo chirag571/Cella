@@ -1,0 +1,5 @@
+Customer,Amount,Status,Note
+" Alice ",12.5,Completed,"hello, ""mint"""
+Alice,12.5,Completed,"hello, ""mint"""
+Bob,,Pending,"first line
+second line"
